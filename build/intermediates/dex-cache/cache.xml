@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/9516daa366879aead1baa41438924283d8a039b8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a43729dd397e849f2a8bdc5d57a2f3170efb3ed">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_e28ec6a05082dcc974c2a05b2040467aca9dd153.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/a5def0a95686276bae71faf8f29a3972b9b045ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_0677c5002bc06ad86ba5cd5cd99184359e84e7da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_80576ddfb68d3c69740d2c300a30dfcdff7d50ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/64887437bc9de791826dad97f0d576d94f518cc6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_b7e00d3b84250175fce8831ad3cdbeab49124e4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/677e48469ebe1bcb132e9ff61cd2cb37ba729c0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_2d0139349efbff909b0e15a8a6bebb20585a681e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/d7d0cae1198d5088570bcbbe66e65f0fc3012baf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_e36abb70e6168d9de18b2ed10f6e377655aa1e39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/b9b1dac8f4b136367863e0bdf8c640d731b1fb77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_e877c5ce5c9bb68d887b5004f6833f38a0793f7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/90dfaef650aa2ac62a17416e6bb0dd274ef4c860/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_7fbde736748b20fdefcfb9875ac01fc80ff0148a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_d6e490fcc6467f27ac354c8401bb0eb63f09dde6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66643d4dccfda65955d330d6c217df09138d4239">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a7c021788584616c22226bb270e437674c43115/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/7cb798e93d758bf7d4891490f8fcb757274f506c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec94bba6a9bbd3461d90830e0a0752a6487f5484">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_b63026731b4473a2480a804ad2a01cbe2d60f6ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/49e8dc6c3d3ac66d49a6d59963a768f6ecf7d838/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_9d8e66a10366aa63fb7839aa3ca5604412e60693.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/0637b5f1293bf52c3371bb4ca4e2e4255fb08a6d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_24f863ced1ea5be212ec99bab4e78d217f31ea3c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e256855be59e59141c33046762c39519dec40d30/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/2fb6f8946d3d649f3e1820aa00ec5cd5b1574bb9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_d19552cbf4117dbf965b704ffc6893509e3e8b47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/e5a3ee7488494d7079a907ddf9824b88be4f8e21/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_ec20cbb189eab846d5fc29e81dce48a29d53dcb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/4b9eb5fde1c8fc33187a6ec654e490bce432d876/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_e37004774217964b306e94c8df84db5d7c796fc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/93d0ccbd3af3fcf45c8572f324e359ad9ce1492a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_a2572e7ffc215f6f011612d49bafaaa66ceff1f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/limbwal/.android/build-cache/43be61374baea665a49dfb61af3f169d2f0751f5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/Users/limbwal/Documents/Programming/Android/PhysicsTool/app/build/intermediates/pre-dexed/debug/classes_f2ad71177c67533ed3bffa3aa73eaf3c01696e89.jar" />
+    </item>
+
+</items>

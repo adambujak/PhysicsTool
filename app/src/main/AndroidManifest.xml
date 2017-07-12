@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.limbwal.adam.physicstool">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:windowSoftInputMode="stateHidden">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:windowSoftInputMode="stateHidden"
+        </activity>
+        <activity
+            android:name=".workspace"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".equationSet" />
+        <activity android:name=".settings" />
+        <activity android:name=".sim" />
+        <activity android:name=".learn" />
+        <activity android:name=".kinematics" />
+        <activity android:name=".lesson1u1" />
+        <activity android:name=".lesson1u2" />
+        <activity android:name=".lesson1u3" />
+        <activity android:name=".lesson1u4" />
+        <activity android:name=".lesson1u5" />
+        <activity android:name=".conversions" />
+        <activity android:name=".help" />
+        <activity android:name=".distance" />
+        <activity android:name=".mass"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+double[] formulas = {a*b,
+a/b,
+a/b,
+(a-b)/c,
+a*b+c,
+a-(b*c),
+(a-b)/c,
+Math.sqrt((Math.pow(a, 2))+(2*b*c)),
+Math.sqrt((Math.pow(a, 2))-(2*b*c)),
+(((Math.pow(a, 2))-(Math.pow(b,2)))/(2*c)),
+(((Math.pow(a, 2))-(Math.pow(b,2)))/(2*c)),
+a*b}

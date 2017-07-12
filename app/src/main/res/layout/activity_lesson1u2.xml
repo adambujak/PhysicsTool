@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.limbwal.adam.physicstool.lesson1u2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lesson 2 - Kinematics"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="One of the most important concpets to understand in kinematics is the difference between displacement and distance, and the difference between velocity and speed.
+
+Displacement is the total change in position, therefore, if something moves 3m to the left and then back 2m to the right, it's displacement is 1m to the left, while the distance it travelled is 5m. Displacement is denoted by the symbol: Δd.
+
+The difference between speed and velocity is very similar, velocity is rate at which an object's position changes, while speed is the rate at which an object moves, for instance, if the aforementioned object completes it's 1m shift to the left in 1 second, the velocity is 1m/s to the left, but the speed is 5m/s, in our problems, we will mostly be using velocity, not speed. Now that we know what all of these terms are, we can define them using equations."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:id="@+id/imageView"
+        android:background="@drawable/velocity"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/speed"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

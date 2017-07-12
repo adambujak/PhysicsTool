@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.limbwal.adam.physicstool.settings">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Settings"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Spinner
+        android:id="@+id/untSetting"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="40sp"
+        android:paddingBottom="40sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="118dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sAVE"
+        android:id="@+id/saveButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="118dp"
+        android:id="@+id/sigDigs"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/untSetting"
+
+        android:paddingBottom="40sp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:id="@+id/backS"
+        android:background="@drawable/backarrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+
+</RelativeLayout>

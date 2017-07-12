@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Physics Tool</string>
+    <string name="enter_values">Please Enter Valid Values!</string>
+    <string name="choose_equation">Please Choose An Equation!</string>
+    <string name="rad">Rad</string>
+    <string name="deg">Deg</string>
+    <string name="projexp">Projectile motion problems allow us to solve how far projected objects
+    will fly. By knowing the initial velocity of an object and the angle at which it is
+    projected, we can solve how long it will be in the air, and thus, how far it will fly.
+    An important thing to note is that gravity is not affected by a horizontal velocity, in
+    other words, if a bullet is dropped from beside a gun the instant the gun fires, the two
+    bullets would hit the ground at the exact same time, this is the key to solving
+    projectile motion problems.</string>
+    <string name="projexp1">So, to solve a projectile motion problem, you must first split the
+        initial velocity into horizontal and vertical components by multiplying the initial velocity
+        by cos and sin of the angle of projection (cos for horizontal, sin for vertical).
+        You then take the vertical component of the velocity, and plug it into the equation as
+        shown below (let us assume an initial velocity of 2 m/s at an angle of 30° above the
+        horizontal, and let us assume that the object landed at the same height as its origin
+        therefore d=0…</string>
+    <string name="projexp2">So, since time is constant we just substitute time and horizontal
+        velocity into our displacement equation to find horizontal displacement…</string>
+    <string name="help">This physics tool is designed to aid you with making quick and accurate
+        calculations while you do practice problems. The equations button in the main menu will take
+        you to your workspace where you can choose an equation or make quick calculations in the
+        calculator, every time you calculate an answer, the value is stored in the ANS key. \nIf you
+        tap on the learn button, you will be taken to the learning menu where you can choose which
+        unit you would like to learn about, there are lessons and simulations available for
+        educational purposes.\nFor quick conversions, check out the conversions page.</string>
+</resources>
