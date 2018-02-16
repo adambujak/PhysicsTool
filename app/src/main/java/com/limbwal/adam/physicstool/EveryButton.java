@@ -12,7 +12,7 @@ import static com.limbwal.adam.physicstool.R.id.AngleType;
 
 
 class EveryButton {
-    static boolean degree = true;
+
 
     static void proceed(EditText editText, int start, View view) {
         String previousCharacter = "";
@@ -506,7 +506,7 @@ class EveryButton {
             }
         } catch (IndexOutOfBoundsException ignored) {
         }
-        //workspace.vibrate();
+        //workspace.vibrate();  // took vibration out of it
         //workspace.setNumSize();
     }
 }

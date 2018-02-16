@@ -18,7 +18,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class distance extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-    Spinner from, to;
+    Spinner from, to; // from = original units, to = desired units
     Button go;
     ImageView switchButton;
     TextView output;

@@ -6,7 +6,9 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.drawable.shapes.OvalShape;
-
+/*
+ball object for simulation
+ */
 
 public class ball implements GameObject{
     private RectF rectangle;

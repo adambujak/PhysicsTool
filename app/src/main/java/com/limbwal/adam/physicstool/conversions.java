@@ -36,11 +36,11 @@ public class conversions extends AppCompatActivity {
         });
     }
     public void goToDistance() {
-        Intent i = new Intent(this, distance.class);
+        Intent i = new Intent(this, distance.class); //opens up distance conversion activity
         startActivity(i);
     }
     public void goToMass() {
-        Intent i = new Intent(this, mass.class);
+        Intent i = new Intent(this, mass.class);//opens up mass conversion activity
         startActivity(i);
     }
 }

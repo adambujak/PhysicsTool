@@ -3,6 +3,12 @@ package com.limbwal.adam.physicstool;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+/*
+this is called whenever user presses the equal sign
+
+this is in charge of all string parsing, and calculations
+
+ */
 public class equals  {
     private static workspace workspace;
 

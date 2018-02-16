@@ -17,12 +17,14 @@ import com.limbwal.adam.physicstool.R;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
+/*
+this contains the declarations for all the buttons and fields in the workspace.
+ */
 
 public class workspace extends AppCompatActivity    {
 
     static String[][] equations = equationSet.equations;
-    double a=1.1,b=2.2,c=2.3;//random values only to initialize
+    double a=1.1,b=2.2,c=2.3;//random values only to initialize - this is for equation solver
     int equation =0;
     EditText twoVarA;
     EditText twoVarB;

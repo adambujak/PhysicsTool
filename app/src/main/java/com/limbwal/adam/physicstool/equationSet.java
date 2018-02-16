@@ -15,7 +15,7 @@ import android.widget.Spinner;
 
 public class equationSet extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     String[] unitItems = {"Choose Unit", "Kinematics", "Forces", "Waves"};
-    static String[][] equations = {
+    static String[][] equations = { //these were generated using a python script, it's faster to store these than teach the program how to rearrange equations
             {"1", "1", "Displacement-Velocity-Time", "d=vt", "dvt", "d", "v", "t", "distance"},
             {"1", "1", "Displacement-Velocity-Time", "v=d/t", "vdt", "v", "d", "t", "speed"},
             {"1", "1", "Displacement-Velocity-Time", "t=d/v", "tdv", "t", "d", "v", "time"},
@@ -45,7 +45,7 @@ public class equationSet extends AppCompatActivity implements AdapterView.OnItem
     String[] unit1Items = splitArrayIntoUnitN(equations, 1);
     String[] unit2Items = splitArrayIntoUnitN(equations, 2);
     String[] unit3Items = splitArrayIntoUnitN(equations, 3);
-    String[][] unitItemsArray = {unit1Items, unit2Items};
+
     static int equationNum = 0;
     Spinner unitSpinner;
     Spinner equationSpinner;
@@ -219,7 +219,8 @@ public class equationSet extends AppCompatActivity implements AdapterView.OnItem
         spinner.setOnItemSelectedListener(this);
     }
 
-    public int[] findUnitNRange(String[][] array, int n) {
+    public int[] findUnitNRange(String[][] array, int n) { //finds the range of equations in the master equation array
+        //that is to be selected with the selected unit - this is done to allow for easy adding of equations.
         int start = 0;
         int end = 0;
         try {
@@ -244,12 +245,13 @@ public class equationSet extends AppCompatActivity implements AdapterView.OnItem
         return new int[]{start, end};
     }
 
-    public String[] splitArrayIntoUnitN(String[][] array, int n) {
+    public String[] splitArrayIntoUnitN(String[][] array, int n) { // this updates the array that
+        //// is fed into the second spinner, so once the user selects which unit they want, it
+        //updates the second spinner
         int[] range = findUnitNRange(array, n);
         int start = range[0];
         int end = range[1];
-        System.out.println("start " + start);
-        System.out.println("end " + end);
+
         int length = end - start;
         if (length == 0) {
             length = 1;
@@ -290,7 +292,7 @@ public class equationSet extends AppCompatActivity implements AdapterView.OnItem
     }
 
     public String[] findVariables(String[][] array, String text) {
-        System.out.println(text);
+
         int length = numEquations;
         int length1 = 9;
         int newLength = 7;
